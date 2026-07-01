@@ -1,0 +1,23 @@
+{
+  "name": "WiStalker",
+  "version": "1.0.0",
+  "description": "Passive 802.11 presence detection for the ESP8266 and ESP32. Puts the radio in promiscuous mode and reports the layer-2 addresses of every sniffed frame, so you can tell whether known devices are within range.",
+  "keywords": "wifi, 802.11, promiscuous, presence, sniffer, esp8266, esp32, mac",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1e1/arduino-macaddress-detector.git"
+  },
+  "authors": [
+    {
+      "name": "1e1",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ],
+  "headers": "WiStalker.hpp"
+}
